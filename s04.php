@@ -1,6 +1,6 @@
 //1
 
-
+(Eno, Ename, Address) on first page
 <?php
 session_start();
 
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </body>
 </html>
 
-
+second page accept earning (Basic, DA, HRA)
 <?php
 session_start();
 
@@ -70,7 +70,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </body>
 </html>
 
-
+third page print Employee information (Eno, Ename, Address, 
+Basic, DA, HRA, Total) [ Use Session] 
 <?php
 session_start();
 
